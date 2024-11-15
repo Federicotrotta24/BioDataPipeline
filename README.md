@@ -73,3 +73,10 @@ Software
 - Docker
 - Amazon S3 and Redshift credentials
 
+
+
+## Acknowledgements
+This project uses data from the Behavioral Risk Factor Surveillance System (BRFSS). Special thanks to open-source tools such as PySpark, Docker, Pandas, Scikit-learn, and Amazon Redshift for enabling this project.
+
+
+
