@@ -1,0 +1,4 @@
+Dataset Description
+The dataset originates from the Behavioral Risk Factor Surveillance System (BRFSS), an extensive collection of data from telephone surveys about health risk factors, chronic conditions, and the use of preventive services in the United States. This dataset spans from 2005 to 2021, containing over 7 million records and between 300 and 400 features per year.
+	•	Dataset link: Kaggle BRFSS Dataset: https://www.kaggle.com/datasets/mayurbhorkar/cdc-dataset?resource=download
+	•	Codebook for variable explanations: https://www.cdc.gov/brfss/annual_data/2021/pdf/codebook21_llcp-v2-508.pdfCDC BRFSS 2021 Codebook
