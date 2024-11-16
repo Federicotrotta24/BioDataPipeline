@@ -46,19 +46,23 @@ Integration with Amazon Redshift: Stores processed data for further analysis and
 ## Steps to Run the Pipeline
 1. Clone the Repository
 Begin by cloning the project repository:
-
+```
 git clone https://github.com/Federicotrotta24/rBioDataPipeline.git
 cd BioDataPipeline
+```
+
 
 
 2. Build the Docker Container
 Ensure Docker is installed, then build the container:
-
+```
 docker build -t data_pipeline .
-
+```
 3. Run the Pipeline
+```
 Run the pipeline using the following command:
 docker run -v $(pwd)/data:/app/data -e CONFIG_PATH=/app/config.yaml data_pipeline
+```
 
 This command:
 - Connects to the S3 bucket to load raw data.
